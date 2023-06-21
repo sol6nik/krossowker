@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+.baasket {
+  display: flex;
+  margin-top: 59px;
+  flex-direction: column;
+
+  &__name {
+    margin-top: 30px;
+    color: var(--orange-color);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 59px;
+  }
+
+  &__main {
+    flex-direction: row;
+    margin-top: 30px;
+  }
+
+  &__photos{
+    flex-direction: column;
+    
+    &_card {
+      display:flex;
+      flex-direction: row;
+      width: 713px;
+      height: 182px;
+    }
+
+    &_first {
+      width: 237px;
+    }
+
+    &_name {
+      color: var(--white-color);
+      margin-left: 15px;
+      margin-top: 15px;
+      margin-bottom: 12px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &_desc {
+      margin-left: 15px;
+      margin-bottom: 5px;
+      width: 146px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14.63px;
+      color: var(--gray-color);
+    }
+
+    &_descr{
+      width: 176px;
+    }
+
+    &_counter {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-left: 15px;
+    }
+
+    &_btn {
+      width: 22px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    &_btn:hover {
+      opacity: 0.6;
+    }
+
+    &_count {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      color: var(--white-color);
+    }
+
+    &_prices {
+
+    }
+
+    &_price {
+      color: var(--orange-color);
+    }
+  }
+}

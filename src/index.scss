@@ -1,0 +1,17 @@
+:root {
+  --orange-color: #FE4C00;
+  --black-color: #000;
+  --white-color: #fff;
+  --gray-color: #9c9c9c;
+}
+
+body {
+  background: var(--black-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

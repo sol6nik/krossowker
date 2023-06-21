@@ -1,0 +1,75 @@
+
+.deliveriesPayment {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3em;
+    .deliveriesHeader {
+        font-size: 3em;
+        color: var(--orange-color)
+    }
+}
+
+.deliveriesCost {
+    margin-top: 2em;
+    .deliveriesCost__header {
+        color: white;
+        font-weight: 900;
+    }
+
+    .deliveriesCost__list {
+        margin-top: .5em;
+        .deliveriesCost__item {
+            color: var(--orange-color);
+            font-weight: 300;
+        }
+        .deliveriesCost__item_white {
+            color: white;
+        } 
+    }
+}
+
+.paymentMethods {
+    margin-top: 3em;
+    &__header {
+        color: white;
+        font-weight: 900;
+    }
+    &__list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__item {
+        margin-top: 1em;
+        width: 25%;
+        
+        &:not(:first-of-type) {
+            margin-left: 2em;;
+        }
+    }
+
+    .item__header {
+        color: var(--orange-color)
+    }
+
+    .item__text {
+        margin-top: .2em;
+        color: white;
+        font-weight: 100;
+    }
+
+    .item__list {
+        color: var(--orange-color);
+        font-weight: 100;
+        margin-top: .5em;
+        padding-bottom: .5em;
+    }
+
+    .item__item {
+        &_white {
+            color: white;
+        }
+        margin-bottom: .3em;
+    }
+}

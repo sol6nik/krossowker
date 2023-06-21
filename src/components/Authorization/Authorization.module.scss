@@ -1,0 +1,71 @@
+.authorization {
+  display: block;
+  margin-top: 50px;
+
+  &_header {
+    color: var(--orange-color);
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  &__inputs_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_emailInput {
+    width: 452px;
+    height: 40px;
+    background: none;
+    border: 1px solid var(--orange-color);
+    font-size: 16px;
+    padding: 10px;
+    color: var(--orange-color);
+  }
+
+  &_passwordInput {
+    margin-top: 25px;
+    width: 452px;
+    height: 40px;
+    background: none;
+    border: 1px solid var(--orange-color);
+    font-size: 16px;
+    padding: 10px;
+    color: var(--orange-color);
+  }
+
+  &__btn_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 452px;
+    margin-top: 35px;
+  }
+
+  &_btnAuth {
+    cursor: pointer;
+    width: 184px;
+    height: 40px;
+    background: none;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &_btnReg {
+    cursor: pointer;
+    width: 184px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: var(--orange-color);
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  ::-webkit-input-placeholder {
+    color: var(--orange-color);
+  }
+}

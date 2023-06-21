@@ -1,0 +1,49 @@
+.categoriesItem {
+  display: block;
+
+  &_checkboxes {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    width: 324px;
+    color: var(--white-color);
+
+    &_checked {
+      margin-right: 6px;
+      width: 20px;
+      background: none;
+      border: 1px solid var(--orange-color);
+    }
+  }
+
+  &_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 294px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+  }
+
+  &_title {
+    color: var(--white-color);
+  }
+
+  &_cont {
+    display: flex;
+    width: 112px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  &_btn {
+    background: none;
+    color: var(--gray-color);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover{
+      color: #FE4C00;
+    }
+  }
+}
